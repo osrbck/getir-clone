@@ -4,7 +4,9 @@ const {height} = Dimensions.get('window');
 const styles = StyleSheet.create({
     headerMain:{
         height: height * 0.064,
-        backgroundColor: '#F7D102'
+        backgroundColor: '#F7D102',
+        flexDirection:'row',
+
     },
     image:{
         width:30,
@@ -20,6 +22,7 @@ const styles = StyleSheet.create({
         borderTopRightRadius: 25,
         borderBottomRightRadius: 25
     },
+   
     headerOneView: {
         flexDirection: 'row',
         alignItems: 'center',
@@ -27,7 +30,15 @@ const styles = StyleSheet.create({
         paddingLeft: 8,
         borderLeftWidth: 3,
         borderLeftColor:'#F3F2FD'
-    }
+    },
+    headerTwoView:{
+        // backgroundColor:'red',
+        width:'20%',
+        height: height * 0.064,
+        flexDirection:'column',
+        justifyContent:'center',
+        alignItems: 'center'
+    },
 
 })
 
