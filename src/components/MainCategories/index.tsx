@@ -5,7 +5,7 @@ import {Category} from '../../models'
 import CategoryItem from '../../components/CetegoryItem'
 
 function index() {
-
+    
     const [categories, setCategories] = useState<Category[]>(categoriesGetir);
   return (
     <View>
